@@ -23,6 +23,6 @@ Route::post('hello', 'App\Http\Controllers\HelloController@post');
 Route::get('hello/other', 'App\Http\Controllers\HelloController@other');
 /*Route::get('hello', function() {
     return view('hello.index');
-});
-*/
+});*/
+
 Route::get('single', 'App\Http\Controllers\SingleController');
