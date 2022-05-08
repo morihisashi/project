@@ -12,7 +12,11 @@ function tag($tag, $txt){
 class HelloController extends Controller
 {
     public function index(){
-        $data = ['one', 'two', 'three', 'four', 'five'];
+        $data = [
+            ['name'=>'山田たろう','mail'=>'tarp@yamada'],
+            ['name'=>'田中はなこ','mail'=>'hanako@flower'],
+            ['name'=>'鈴木さちこ','mail'=>'sachico@happy']
+        ];
         return view('hello.index',['data'=>$data]);
     }
 
