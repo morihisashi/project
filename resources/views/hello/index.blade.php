@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-    <p>ここが本文のコンテンツです。</p>
+    <p>ここが本文のコンテンツですよ。</p>
     <ul>
     @each('components.item',$data,'item')
     </ul>
